@@ -6,6 +6,9 @@ body{
 body,button,input{
     font-family: 'Source Sans Pro', sans-serif;
 }
+input:focus{
+    outline:0;
+}
 h1,h2,h3{
     font-family: 'Oxygen', sans-serif;
 }
@@ -110,6 +113,32 @@ section{
 .donate-plan #education{
     background:#FFF4D6;
     margin-right:0;
+}
+/* Depend on Donation */
+.depend-on-donation {
+    padding-top:120px;
+}
+.depend-on-donation img.depnend-on-image{
+display: block;
+margin:auto;
+width:100%;
+}
+.depend-on-box {
+    box-shadow: 0px 5px 15px -3px grey;
+    width: 900px;
+    margin: auto;
+    margin-top: -100px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.depend-on-title{
+    padding:30px;
+    background:#12284C;
+    color:#ffffff;
+}
+.depend-on-content{
+    padding:30px;
+    background:#ffffff;
 }
 .get-update .get-update-form{
     width:809px;
