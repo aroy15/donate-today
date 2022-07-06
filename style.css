@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    line-height: 1.3;
+}
+h1,h2,h3{
+    font-family: 'Oxygen', sans-serif;
+}
+h1{
+    font-size:65px;
+    margin-bottom:0;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content:center;
+}
+.text-center{
+    text-align:center;
+}
+.btn-red{
+    padding:12px 20px;
+    background-color:#FF5959;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size:20px;
+    display:inline-block;
+    margin-top:10px;
+}
+.container{
+    width:80%;
+    margin:auto;
+    padding:0 20px;
+}
+
+
+
+.hero-section{
+    padding:70px 0 150px 0;
+    background-image:linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(/images/donation8.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color:#ffffff;
+}
+footer{
+    background-color:#0B0D17;
+    color:#D9DBE1;
+    padding: 40px 0;
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    color:#FF5959;
+    font-size:36px;
+    margin-bottom:20px;
+}
