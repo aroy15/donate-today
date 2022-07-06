@@ -41,10 +41,10 @@ h3{
     display:inline-block;
     margin-top:10px;
     border:none;
+    cursor: pointer;
 }
 .container{
-    max-width:1130px;
-    width:100%;
+    width:1130px;
     margin:auto;
     padding:0 20px;
 }
@@ -112,12 +112,29 @@ section{
     margin-right:0;
 }
 .get-update .get-update-form{
-    max-width:809px;
-    width:100%;
+    width:809px;
     margin:40px auto 100px auto;
     background:#FFF4D6;
     padding:20px;
     height:160px;
+}
+.get-update-form input{
+    height:48px;
+    width:235px;
+    background-color:#D9D9D9;
+    border-radius:5px 0 0 5px;
+    padding:0px 20px;
+    border:none;
+    font-size:16px;
+}
+.get-update-form .btn-subscribe{
+    font-size:16px;
+    padding:14px 40px;
+    border-radius:0 5px 5px 0;
+    background:#FF5959;
+    color:#ffffff;
+    margin-left:-5px;
+    margin-top:0;
 }
 footer{
     background-color:#0B0D17;
