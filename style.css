@@ -1,3 +1,4 @@
+/* Commons CSS */
 body{
     margin:0;
     font-size:18px;
@@ -56,16 +57,21 @@ section{
     padding-top:80px;
     padding-bottom:20px;
 }
-
+/* End of Common CSS */
+/* Hero Section */
 .hero-section{
     padding:100px 0 150px 0;
-    background-image:linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(./images/donation8.jpg);
+    background-image:linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(./images/flood-help.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     color:#ffffff;
 }
-
+.hero-section .container{
+    width:800px;
+}
+/* End of Hero Section */
+/*  Donate Today */
 .donate-amounts{
     width:775px;
     margin:auto;
@@ -97,11 +103,14 @@ section{
     border-bottom:1px solid #DADADA;
     font-size:18px;
 }
+/* End of Donate Today */
+/* Our Donate Plan */
 .donate-card-item{
     padding:50px 20px;
     text-align:left;
     margin:30px 10px 0 10px;
     border-radius:5px;
+    width:30%;
 }
 .donate-plan #food{
     background:#EDF5F6;
@@ -114,6 +123,7 @@ section{
     background:#FFF4D6;
     margin-right:0;
 }
+/* End of Our Donate Plan */
 /* Depend on Donation */
 .depend-on-donation {
     padding-top:120px;
@@ -122,6 +132,7 @@ section{
     display: block;
     margin:auto;
     width:100%;
+    border-radius: 5px;
 }
 .depend-on-box {
     box-shadow: 0px 5px 15px -3px grey;
@@ -135,11 +146,15 @@ section{
     padding:30px;
     background:#12284C;
     color:#ffffff;
+    width:45%;
 }
 .depend-on-content{
     padding:30px;
     background:#ffffff;
+    width:55%;
 }
+/* End of Depend on Donation */
+/* Get My Update */
 .get-update .get-update-form{
     width:809px;
     margin:40px auto 100px auto;
@@ -165,6 +180,8 @@ section{
     margin-left:-5px;
     margin-top:0;
 }
+/*End of Get My Update */
+/* Footer */
 footer{
     background-color:#0B0D17;
     color:#D9DBE1;
@@ -176,3 +193,4 @@ footer h3{
     font-size:36px;
     margin-bottom:20px;
 }
+/* End of Footer */
